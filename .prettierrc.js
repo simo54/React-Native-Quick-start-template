@@ -3,5 +3,13 @@ module.exports = {
   jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
-  arrowParens: 'avoid',
+  arrowParens: 'always',
+  printWidth: 80,
+  useTabs: true,
+  semi: true,
+  jsxSingleQuote: true,
+  trailingComma: "es5",
+  bracketSpacing: true,
+  htmlWhitespaceSensitivity: "ignore",
+  endOfLine: "lf"
 };

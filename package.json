@@ -1,5 +1,5 @@
 {
-  "name": "MyAwesomeProject",
+  "name": "MyApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,6 +11,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
     "react": "17.0.1",
     "react-native": "0.64.2"
   },
