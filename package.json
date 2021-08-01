@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "17.0.1",
@@ -23,6 +24,7 @@
     "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^27.0.6",
     "eslint": "^7.32.0",
+    "husky": "^7.0.0",
     "jest": "^27.0.6",
     "metro-react-native-babel-preset": "^0.66.2",
     "react-native-typescript-transformer": "^1.2.13",
