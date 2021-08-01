@@ -1,6 +1,13 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
+import customStyle from './style';
 
 export default function Welcome() {
-	return <Text>🚀 Welcome to this boilerplate 🚀</Text>;
+	return (
+		<View style={customStyle.styleWelcome.container}>
+			<Text style={customStyle.styleWelcome.text}>
+				🚀 Welcome to this boilerplate 🚀
+			</Text>
+		</View>
+	);
 }
